@@ -1,0 +1,19 @@
+﻿La génération a démarré 07/12/2017 12:01:40.
+     1>Projet "Z:\Boulot\saleté de googletest\Dames\Dames.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"Z:\Boulot\google test\googletest-master\googletest\include" /I"Z:\Boulot\google test\googletest-master\googletest" /I"Z:\Boulot\google test\googletest-master" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dames\optimisation.cpp
+         optimisation.cpp
+     1>z:\boulot\saleté de googletest\dames\dames\optimisation.cpp(73): warning C4715: 'peutmangerdame' : les chemins de contrôle ne retournent pas tous une valeur
+     1>z:\boulot\saleté de googletest\dames\dames\optimisation.cpp(48): warning C4717: 'optimisationpion' : récurrent sur tous les chemins d'accès de contrôle, la fonction entraînera un dépassement de capacité de la pile d'exécution
+     1>z:\boulot\saleté de googletest\dames\dames\optimisation.cpp(100): warning C4717: 'optimisation' : récurrent sur tous les chemins d'accès de contrôle, la fonction entraînera un dépassement de capacité de la pile d'exécution
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Boulot\saleté de googletest\Debug\Dames.exe" /INCREMENTAL /NOLOGO /LIBPATH:"Z:\Boulot\saleté de googletest\Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "saleté de googletest.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Boulot\saleté de googletest\Debug\Dames.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Boulot\saleté de googletest\Debug\Dames.lib" /MACHINE:X86 Debug\Dames.res
+         Debug\Main.obj
+         Debug\utils.obj
+         Debug\optimisation.obj
+         Dames.vcxproj -> Z:\Boulot\saleté de googletest\Debug\Dames.exe
+     1>Génération du projet "Z:\Boulot\saleté de googletest\Dames\Dames.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.76
